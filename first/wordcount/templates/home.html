@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Word Count</title>
+    <link rel = "stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    <div class="header">
+    <h1 >Word Count</h1>
+    
+    
+        <div style = "margin: 2vh 0;">
+        <a style ="font-family: cursive;" href="{%url 'about' %}">About</a>
+        </div>
+        <form style="margin-bottom: 3vh;"action="{% url 'result' %}">
+            <textarea cols = "40" rows = "10" wrap="virtual" name="fulltext"></textarea>
+            <br>
+            <input class = "btn" type="submit" value="COUNT">
+        </form>
+    </div>
+</body>
+</html>

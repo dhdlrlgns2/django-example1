@@ -1,0 +1,84 @@
+body{
+    background : url('https://stmed.net/sites/default/files/typewriter-wallpapers-28957-2616139.jpg') fixed no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    margin: 0 0;
+}
+.header{
+    height: 5vh;
+    display: table;
+    margin : auto;
+    margin-top: 25vh;
+    
+    font-size : 6vh;
+    text-align: center;
+    font-family: cursive;
+    padding: 0 4vh;
+    background-color: rgba(255, 255, 255,0.3)
+}
+.main{
+    display: table;
+    margin : 0 auto;
+    text-align: center;
+}
+a{
+    transition: color 1s;
+    font-size : 3vh;
+    margin-bottom : 10vh;
+}
+a:link{
+    color: black; text-decoration: none;
+}
+a:visited{
+    color: black; text-decoration: none;
+}
+a:hover{
+    color: rgb(255, 255, 255); text-decoration: none;
+    transition: all 1s;
+}
+textarea{
+    overflow: hidden;
+    resize: none;
+    border-style: none;
+    height: 3vh;
+    width: 40vh;
+    transition: height 1s; 
+    background-color: rgba(255, 255, 255,0.5);
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 1vh;
+    
+}
+textarea:hover{
+    height: 20vh;
+    width: 40vh;
+    transition: height .8s; 
+}
+textarea:focus{
+    height: 20vh;
+    width: 40vh;
+    outline: none;
+}
+input{
+    font-family: sans-serif;
+    padding : 1vh;
+    height: 4vh;
+    width: 8vh;
+    text-decoration: none;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 20px;
+    background: rgba(255, 255, 255,0.5);
+    border-color: black;
+    border : 2px solid rgba(0, 0, 0, 0.7);
+    transition: background 1s;
+}
+input:active{
+    outline: none;
+}
+input:hover{
+    background-color:rgba(0, 0, 0, 0.5);
+    color : white;
+    border-color: rgba(0, 0, 0, 0.7);
+    transition: all 1s;
+}
